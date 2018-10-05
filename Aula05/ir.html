@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Javascript
+        </title>
+    </head>
+    <body>
+        <div id="impostoDeRenda"></div>
+        <script>
+            var salario = 50000;
+            var aliquota;
+            if (salario <=1903.98) {
+                aliquota = 0;
+            } else if (salario >1903.98 && salario <=2826.65) {
+                aliquota = 7.5;                
+            } else if (salario >2826.65 && salario <=3751.05) {
+                aliquota = 15;                
+            } else if (salario >3751.05 && salario <=4664.68) {
+                aliquota = 22;                
+            } else {
+                aliquota = 27.5;                
+            }
+            impostoAPagar = ((aliquota*salario)/100);
+            document.getElementById("impostoDeRenda").innerHTML = impostoAPagar;            
+        </script>
+    </body>    
+</html>

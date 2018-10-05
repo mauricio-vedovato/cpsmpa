@@ -1,0 +1,32 @@
+div {
+    background-color: blue
+}
+
+div {
+    margin-left: 150px;
+    margin-right: 75px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+h1 {
+    border: 2px solid dodgerblue;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: ghostwhite;
+}
+
+#paragrafo1 {
+    color: bisque
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgray;
+}
+
+#paragrafo1 {
+    font-size: 20px;
+}
